@@ -1,0 +1,58 @@
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Файлы среды разработки PyCharm
+.idea/
+
+# Файлы виртуального окружения
+venv/
+env/
+.venv
+
+# Компилированные Python-файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# Файлы зависимостей
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Файлы тестирования и покрытия
+.coverage
+*.cover
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# Секретные данные и конфигурации
+*.env
+.env.*
+*.secret
+*.key
+
+# Docker
+*.pid
+*.tar
+*.lock
+
+# PyCharm-specific test results
+.pytest_cache/
+.idea/
